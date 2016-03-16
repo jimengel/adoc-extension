@@ -2,7 +2,8 @@
 
 To use this extension add the following in your .emacs file
 
-```(setq load-path
+```
+(setq load-path
    (append load-path
    '("<replace this with the path to where your .emacs.d is located>/.emacs.d/elpa/adoc-extension")))
 (autoload 'my-adoc-additions "adoc-extension")
